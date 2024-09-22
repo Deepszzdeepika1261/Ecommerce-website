@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'sans-serif';
+    font-style: NORMAL_OR_ITALIC;
+    font-weight: NUMERIC_WEIGHT_VALUE;
+    font-display: swap;
+    src: url(FONT_FILE_NAME.woff2) format('woff2');
+  }
+  #navbar {
+    position: sticky;
+ 
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(21, 5, 171, 0.5);
+    background-color: black; /* Black background for the navbar */
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(34, 95, 44); /* Change brand text to white */
+}
+
+#navbarSupportedContent {
+    color: white; /* Change link text to white */
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a {
+    color: white; /* Ensure links are white */
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid violet; /* Hover effect remains the same */
+}
+
+#navbarSupportedContent button {
+    background-color: rgb(9, 61, 26);
+    color: white; /* Set button text to white */
+    width: 5rem;
+    border-radius: 15px;
+}
+
+  section{
+    width: 1000px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+  background-color: black; /* Set black as the base background color */
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)), url(home.jpg);
+  background-position: center;
+  background-size: contain; /* Ensures the image fits within the container, without cropping */
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)), url(home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+#home h1 {
+  font-size: 100px;
+  color: antiquewhite;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 
+               0px 1px 2px rgba(255, 255, 255, 0.2),   /* Soft white glow */
+               2px 2px 4px rgba(245, 222, 179, 0.5),   /* Wheat shadow effect */
+               4px 4px 6px rgba(0, 0, 0, 0.3),        /* Darker shadow for depth */
+               6px 6px 8px rgba(0, 0, 0, 0.4);        /* More intense shadow */
+  margin-bottom: 20px;
+}
+
+
+#home p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+
+.btn.signin {
+  width: 30%;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn.signin:hover {
+  background-color: #218838;
+}
+#home .input-group{
+  width:40% ;
+  height:45px ;
+
+}
+.signin{
+  background-color: green;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* About Section */
+#about {
+    padding: 3rem 5rem;
+    width:auto;
+    background-color: rgb(172, 224, 242);
+}
+
+#about h1 {
+    font-size: 48px;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #0a0124;
+  margin-bottom: 20px;
+  
+  width: 100%; /* Ensures paragraph takes the full width of its container */
+  text-align: justify; /* Makes the text span across the width evenly */
+  max-width: 100%; /* Ensures it doesn't shrink below the container size */
+}
+
+
+#about img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ee6c6c;
+}
+
+
+footer {
+    background-color: rgb(77, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/**********product***/
+#Product{
+  background:grey;
+  width: auto;
+
+  
+
+
+}
+#Product  h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+#Product img{
+  width: auto;
+  height: auto;
+  
+}
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(117, 4, 4);
+  border: none;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), 
+              inset 4px 4px 10px white;
+  border-radius: 200x;
+  overflow: hidden;
+  justify-content: center;
+  align-self: center;
+ margin: 20px  60px;
+}
+.image-container {
+  background-color: transparent; /* Set to transparent or any desired color */
+  border: none; /* Remove borders if any */
+}
+.card-body {
+  border: none;
+  background-color: gray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(227, 213, 213); 
+  color: black;
+  border: 2px solid #8dbbbb;
+}
+
+
+#contact {
+  background-color: #505c5c;
+  height: 50vh; /* Half of the viewport height */
+  width: 99vw;  /* Half of the viewport width */
+  padding: 20px; /* Optional padding for spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers content vertically and horizontally */
+  margin: 0 auto; /* Centers the container on the page */
+}
+
+
+.box {
+  width: 5%;
+  margin: 1ppx auto; /* Corrected margin syntax */
+  padding: 2px; /* Added padding for better spacing */
+}
+.type{
+  width: 100px;
+  height:10px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+  margin: 10px 0; /* Combined selectors for DRY code */
+}
